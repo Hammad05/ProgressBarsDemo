@@ -1,0 +1,199 @@
+/* My Styles */
+
+::placeholder {
+  color: #707372 !important;
+}
+
+.autocomplete {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.appBar {
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 500px) {
+  .autocomplete {
+    width: 420px;
+    margin-left: 10px;
+  }
+}
+
+.branding-logo {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  height: 18px;
+  width: 114px;
+  margin-left: 10px;
+}
+
+.branding-logo-responsive {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 18px;
+  width: 114px;
+  margin-left: 10px;
+}
+
+.margin-bottom--quad {
+  margin-bottom: 20px;
+}
+
+.margin-top--quad {
+  margin-top: 20px;
+}
+
+.wifi-modal {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+/*// Overrides*/
+
+.textfield-label {
+  color: #555555;
+}
+
+.test {
+  text-transform: none;
+}
+
+.footer-terms-conditions {
+  margin-top: 10px;
+  width: 188px;
+  height: 28px;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #555555;
+}
+
+.access-code-container,
+.hotel-guest-container {
+  margin-left: 10px;
+  margin-top: 35px;
+}
+
+.access-code-sub-heading,
+.hotel-guest-sub-heading{
+  margin-top: -20px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #555555;
+}
+
+.access-code-textfield,
+.hotel-guest-textfields{
+  margin-top: 65px;
+}
+
+.hotel-guest-textfield{
+  width: 300px;
+}
+
+.hotel-guest-room-number {
+  width: 96px;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    margin-bottom: 25px;
+  }
+  .hotel-guest-textfields{
+    margin-top: 40px;
+  }
+  .hotel-guest-room-number {
+    display: block !important;
+    margin-top: 40px;
+  }
+  .access-code-container,
+  .hotel-guest-container {
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+}
+
+.connect-error-message {
+  display: inline-block;
+  color: red;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.connect-button {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+}
+
+.simple-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simple-modal-container {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 2px 4px 3px;
+  width: 30%;
+  height: 25%;
+  min-width: 220px;
+  min-height: 130px;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.simple-modal-header {
+  font-size: 16px;
+  font-weight: bolder;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #555555;
+}
+
+.simple-modal-message {
+  font-size: small;
+  text-align: center;
+  margin-top: -8px;
+}
+
+
+.ihg-pro-checkbox {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+}
+
+.hotel-guest-checkbox-container {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
